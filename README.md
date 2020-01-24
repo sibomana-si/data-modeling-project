@@ -7,7 +7,7 @@ Currently the data resides in a directory of JSON logs on user activity on the a
 
 
 ## Database Design and ETL Pipeline
-The database schema design that we chose is the star schema as it facilitates simplified queries and fast aggregations. The requirement from the Sparkify analytics team was for a database with tables designed to optimize queries on song play analysis. Our design consist of one fact table (songplays), and four dimension tables (users, songs, artists, and time).
+The database schema design that we chose is the star schema as it facilitates simplified queries and fast aggregations. The requirement from the Sparkify analytics team was for a database with tables designed to optimize queries on song play analysis. Our design consists of one fact table (songplays), and four dimension tables (users, songs, artists, and time).
 
 
 #### FACT Table
